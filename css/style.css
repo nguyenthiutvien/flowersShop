@@ -334,19 +334,6 @@ header .fa-bars{
 }
 
 /* media queries  */
-@media (max-width:768px){
-
-    header .fa-bars{
-        display: block;
-    }
-    .nav__bars-btn{
-        display: block;
-    }
-    .navbar{
-        display: none;
-
-    }
-}
 
 @media (max-width:991px){
     
@@ -367,6 +354,21 @@ header .fa-bars{
     }
 
 }
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+    .nav__bars-btn{
+        display: block;
+    }
+    .navbar{
+        display: none;
+
+    }
+}
+
+
 
 
 @media (max-width:450px){
