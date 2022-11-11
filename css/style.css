@@ -368,9 +368,6 @@ header .fa-bars{
     }
 }
 
-
-
-
 @media (max-width:450px){
     
     html{
@@ -383,5 +380,7 @@ header .fa-bars{
     .footer .box-container{
         display: block;
         text-align: center;}
-
+    .about .row{
+        display: block;
+    }
 }
